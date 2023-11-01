@@ -3,10 +3,10 @@ def hangman(word, guessed_letters)
       guessed_letters.include?(letter) ? letter : '_'
     end
   
-    return result.join
+    result.join
   end
   
-  word = "hahakala"
+  word = "hangman"
   guessed_letters = ["a", "h"]
   
   result = hangman(word, guessed_letters)
